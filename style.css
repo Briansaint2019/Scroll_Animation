@@ -1,0 +1,81 @@
+
+
+.trump {
+
+    background: url('./images/trump.png') 0 0 no-repeat;
+    width: 268.8px;
+    height: 259px;
+    /* border: 1px solid black; */
+    animation: run 600ms steps(5) infinite;
+
+}
+
+@keyframes run {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: -1344px 0;
+    }
+}
+
+
+body {    
+    display: flex;
+    justify-content:space-between;  
+      flex-direction: row;      
+    padding: 0;
+    margin: 0;
+    top:0;
+    background: url('./images/forest.png') 0 0 repeat-x;
+    min-width: auto;
+    max-width: 100%;
+    min-height: auto;
+    max-height: 100%;
+    /* border: 1px solid black; */
+    animation: run2 4000ms linear infinite;
+    background-size: fill   ;
+    
+}
+
+@keyframes run2 {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: -1300px 0;
+    }
+}
+
+.pig {
+    position: absolute;
+    left: 2%;
+    justify-content: center;
+    align-items: center;
+    height: 124.6666666666667px;
+    width: 120.111111px;
+    background: url('images/pig3.png') 0 0 no-repeat;
+    animation: piggy 1s steps(3) infinite;
+
+}
+
+@keyframes piggy {
+    from {background-position: 0 0;}
+
+    to {background-position: -388px 0;}
+}
+
+
+
+.box {
+    position: absolute;
+    
+    top: 60%;
+    min-height:auto;
+    max-height: 100%;
+    min-width: auto;
+    max-width: 100%;
+    
+}
